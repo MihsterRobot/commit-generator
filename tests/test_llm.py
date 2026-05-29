@@ -1,5 +1,6 @@
-import pytest
 from unittest.mock import MagicMock, patch
+
+import pytest
 from anthropic.types import TextBlock
 
 from commit_generator.llm import get_suggestions, MAX_DIFF_CHARS

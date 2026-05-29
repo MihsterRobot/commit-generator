@@ -1,5 +1,6 @@
-import pytest
 from unittest.mock import patch, MagicMock
+
+import pytest
 
 from commit_generator.git import apply_suggestion
 
