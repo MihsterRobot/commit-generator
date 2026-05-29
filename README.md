@@ -63,12 +63,12 @@ python -m commit_generator --count 2
 commit_generator/
 ├── cli.py        # Argument parsing and entry point
 ├── diff.py       # Diff acquisition via subprocess or stdin
-├── git.py        # Anthropic API call and suggestion parsing
-└── llm.py        # Interactive commit application
+├── git.py        # Interactive commit application
+└── llm.py        # Anthropic API call and suggestion parsing
 tests/
 ├── test_diff.py
-├── test_llm.py
-└── test_git.py
+├── test_git.py
+└── test_llm.py
 ```
 
 ## Running Tests
