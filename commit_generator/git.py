@@ -28,6 +28,11 @@ def apply_suggestion(suggestions: list[str]) -> None:
 
     selected = suggestions[choice - 1]
 
+    confirm = input(f'Confirm commit with message: "{selected}"? (y/n): ').strip().lower()
+    if confirm != "y":
+        print("Aborted.")
+        raise SystemExit(0)
+
     result = subprocess.run(['git', 'commit', '-m', selected])
 
     if result.returncode != 0:
