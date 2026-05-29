@@ -1,5 +1,7 @@
 # commit-generator
 
+*Built because manually pasting diffs into an LLM gets old fast.*
+
 Generate conventional commit message suggestions from a git diff using the Anthropic API.
 
 ## Demo
