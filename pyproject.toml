@@ -6,3 +6,10 @@ build-backend = "setuptools.build_meta"
 name = "commit-generator"
 version = "0.1.0"
 requires-python = ">=3.10"
+dependencies = [
+    "anthropic",
+    "python-dotenv",
+]
+
+[project.scripts]
+commit-generator = "commit_generator.cli:main"
