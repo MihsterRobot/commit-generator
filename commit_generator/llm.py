@@ -1,5 +1,8 @@
 import anthropic
 from anthropic.types import TextBlock
+from dotenv import load_dotenv
+
+load_dotenv()
 
 MAX_DIFF_CHARS = 8000
 
