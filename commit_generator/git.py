@@ -1,3 +1,9 @@
+'''Git commit application module.
+
+Handles interactive selection and application of a commit message
+suggestion via subprocess.
+'''
+
 import subprocess
 
 

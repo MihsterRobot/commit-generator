@@ -1,3 +1,9 @@
+'''Diff acquisition module.
+
+Retrieves the git diff as a string from stdin or subprocess,
+depending on how the program is invoked.
+'''
+
 import subprocess
 import sys
 

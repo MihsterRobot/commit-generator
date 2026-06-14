@@ -1,3 +1,9 @@
+'''Command-line interface for commit-generator.
+
+Parses arguments, acquires the git diff, generates suggestions,
+and either prints them or applies one as a git commit.
+'''
+
 import argparse
 
 from commit_generator import diff, git, llm

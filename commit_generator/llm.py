@@ -1,3 +1,9 @@
+'''LLM interaction module.
+
+Sends the git diff to the Anthropic API and parses the response
+into a list of conventional commit message suggestions.
+'''
+
 import anthropic
 from anthropic.types import TextBlock
 from dotenv import load_dotenv
